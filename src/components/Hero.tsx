@@ -12,17 +12,17 @@ export default function Hero({ onLeadFormOpen }: HeroProps) {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-left">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Launch Your Online
+              გახსენით თქვენი ონლაინ
               <span className="block bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
-                Currency Exchange
+                ვალუტის გაცვლა
               </span>
               <span className="block text-2xl md:text-3xl font-medium text-white/90 mt-2">
-                in Georgia
+                საქართველოში
               </span>
             </h1>
             <p className="text-xl text-white/80 mb-8 max-w-xl leading-relaxed">
-              Transform your physical exchange business into a thriving online platform. 
-              Start offering GEL-USD and GEL-EUR exchanges to Georgian customers in just days.
+              გადააქციეთ თქვენი ფიზიკური საცვლელი ბიზნესი წარმატებულ ონლაინ პლატფორმად. 
+              დაიწყეთ ლარის-დოლარისა და ლარის-ევროს გაცვლა ქართველი მომხმარებლებისთვის მხოლოდ რამდენიმე დღეში.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
@@ -30,28 +30,28 @@ export default function Hero({ onLeadFormOpen }: HeroProps) {
                 onClick={onLeadFormOpen}
                 className="bg-white text-primary hover:bg-white/90 shadow-button transition-smooth text-lg px-8 py-6"
               >
-                Get Started Today
+                დღესვე დაიწყეთ
               </Button>
               <Button 
                 variant="outline" 
                 size="lg"
                 className="border-white/30 text-white hover:bg-white/10 hover:border-white transition-smooth text-lg px-8 py-6"
               >
-                View Demo
+                დემოს ნახვა
               </Button>
             </div>
             <div className="mt-12 flex items-center gap-8 text-white/70">
               <div className="text-center">
                 <div className="text-2xl font-bold text-white">24/7</div>
-                <div className="text-sm">Support</div>
+                <div className="text-sm">მხარდაჭერა</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">3 Days</div>
-                <div className="text-sm">Setup Time</div>
+                <div className="text-2xl font-bold text-white">3 დღე</div>
+                <div className="text-sm">დაყენების დრო</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-white">99.9%</div>
-                <div className="text-sm">Uptime</div>
+                <div className="text-sm">მუშაობის დრო</div>
               </div>
             </div>
           </div>

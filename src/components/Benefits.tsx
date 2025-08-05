@@ -8,28 +8,28 @@ interface BenefitsProps {
 export default function Benefits({ onLeadFormOpen }: BenefitsProps) {
   const benefits = [
     {
-      title: "Increase Revenue by 300%",
-      description: "Expand your customer base beyond physical location limitations. Serve customers 24/7 across Georgia."
+      title: "გაზარდეთ შემოსავალი 300%-ით",
+      description: "გააფართოვეთ მომხმარებელთა ბაზა ფიზიკური ლოკაციის შეზღუდვების გარეშე. მომსახურეთ მომხმარებლები 24/7 მთელ საქართველოში."
     },
     {
-      title: "Reduce Operating Costs",
-      description: "Automate exchange processes, reduce staff requirements, and eliminate physical infrastructure costs."
+      title: "შეამცირეთ ოპერაციული ხარჯები",
+      description: "ავტომატიზირებული გაცვლითი პროცესები, შემცირებული პერსონალი და ფიზიკური ინფრასტრუქტურის ხარჯების გამორიცხვა."
     },
     {
-      title: "Real-Time Rate Management",
-      description: "Update exchange rates instantly, set custom markups, and maximize profit margins on every transaction."
+      title: "რეალურ დროში კურსების მართვა",
+      description: "მყისიერად განაახლეთ სავალუტო კურსები, დააყენეთ ინდივიდუალური მარჟა და მაქსიმალიზირებული მოგება."
     },
     {
-      title: "Compliance & Reporting",
-      description: "Automated regulatory reporting, transaction monitoring, and compliance with Georgian financial laws."
+      title: "შესაბამისობა და რეპორტინგი",
+      description: "ავტომატური რეგულატორული რეპორტინგი, ტრანზაქციების მონიტორინგი და საქართველოს ფინანსური კანონმდებლობის დაცვა."
     },
     {
-      title: "Mobile-First Experience",
-      description: "Your customers can exchange currencies from anywhere using their smartphones or computers."
+      title: "მობილური პრიორიტეტი",
+      description: "თქვენი მომხმარებლები შეძლებენ ვალუტის გაცვლას ნებისმიერი ადგილიდან სმარტფონი ან კომპიუტერის გამოყენებით."
     },
     {
-      title: "24/7 Expert Support",
-      description: "Dedicated Georgian support team to help you grow your business and resolve any technical issues."
+      title: "24/7 ექსპერტი მხარდაჭერა",
+      description: "ქართული მხარდაჭერის გუნდი თქვენი ბიზნესის ზრდაში დახმარებისა და ტექნიკური პრობლემების მოგვარებისთვის."
     }
   ];
 
@@ -39,20 +39,20 @@ export default function Benefits({ onLeadFormOpen }: BenefitsProps) {
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
           <div>
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-              Transform Your Business
-              <span className="block text-primary">In Days, Not Years</span>
+              გადააქციეთ თქვენი ბიზნესი
+              <span className="block text-primary">დღეებში, არა წლებში</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Join the digital economy and compete with international exchanges. 
-              Our Georgian-focused platform helps traditional exchange businesses 
-              thrive in the online marketplace.
+              შეუერთდით ციფრულ ეკონომიკას და კონკურენცია გაუწიეთ საერთაშორისო ბირჟებს. 
+              ჩვენი საქართველოზე ორიენტირებული პლატფორმა ტრადიციულ საცვლელ ბიზნესებს 
+              ეხმარება წარმატებას ონლაინ ბაზარზე.
             </p>
             <Button 
               size="lg" 
               onClick={onLeadFormOpen}
               className="bg-gradient-primary hover:shadow-button transition-smooth"
             >
-              Start Your Transformation
+              დაიწყეთ ტრანსფორმაცია
             </Button>
           </div>
           <div className="relative">
@@ -86,18 +86,18 @@ export default function Benefits({ onLeadFormOpen }: BenefitsProps) {
 
         <div className="mt-16 text-center bg-gradient-primary rounded-2xl p-12 text-white">
           <h3 className="text-3xl font-bold mb-4">
-            Ready to Go Digital?
+            მზად ხართ ციფრულისთვის?
           </h3>
           <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
-            Don't let competitors get ahead. Start your online currency exchange platform today 
-            and capture the growing Georgian digital market.
+            ნუ დაუტოვებთ კონკურენტებს წინ გადაგიდგნენ. დღესვე დაიწყეთ თქვენი ონლაინ ვალუტის გაცვლის პლატფორმა 
+            და დაიპყროთ მზარდი ქართული ციფრული ბაზარი.
           </p>
           <Button 
             size="lg" 
             onClick={onLeadFormOpen}
             className="bg-white text-primary hover:bg-white/90 shadow-button transition-smooth"
           >
-            Get Your Free Consultation
+            მიიღეთ უფასო კონსულტაცია
           </Button>
         </div>
       </div>

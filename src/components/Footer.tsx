@@ -9,8 +9,8 @@ export default function Footer() {
               <span className="text-xl font-bold">ExchangeGeorgia</span>
             </div>
             <p className="text-background/80 mb-4 max-w-md">
-              The leading whitelabel currency exchange solution for Georgian businesses. 
-              Transform your physical exchange into a thriving online platform.
+              წამყვანი თეთრი ეტიკეტის ვალუტის გაცვლის გადაწყვეტა ქართული ბიზნესებისთვის. 
+              გადააქციეთ თქვენი ფიზიკური საცვლელი წარმატებულ ონლაინ პლატფორმად.
             </p>
             <div className="text-background/60">
               <div>📧 info@exchangegeorgia.com</div>
@@ -20,24 +20,24 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Solutions</h4>
+            <h4 className="font-semibold mb-4">გადაწყვეტები / Solutions</h4>
             <ul className="space-y-2 text-background/80">
-              <li>Whitelabel Platform</li>
-              <li>GEL-USD Exchange</li>
-              <li>GEL-EUR Exchange</li>
-              <li>Mobile App</li>
-              <li>API Integration</li>
+              <li>თეთრი ეტიკეტის პლატფორმა / Whitelabel Platform</li>
+              <li>ლარი-დოლარის გაცვლა / GEL-USD Exchange</li>
+              <li>ლარი-ევროს გაცვლა / GEL-EUR Exchange</li>
+              <li>მობილური აპლიკაცია / Mobile App</li>
+              <li>API ინტეგრაცია / API Integration</li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4">კომპანია / Company</h4>
             <ul className="space-y-2 text-background/80">
-              <li>About Us</li>
-              <li>Security</li>
-              <li>Compliance</li>
-              <li>Support</li>
-              <li>Contact</li>
+              <li>ჩვენს შესახებ / About Us</li>
+              <li>უსაფრთხოება / Security</li>
+              <li>შესაბამისობა / Compliance</li>
+              <li>მხარდაჭერა / Support</li>
+              <li>კონტაქტი / Contact</li>
             </ul>
           </div>
         </div>
@@ -48,9 +48,9 @@ export default function Footer() {
               © 2024 ExchangeGeorgia. All rights reserved.
             </div>
             <div className="flex gap-6 text-background/60">
-              <a href="#" className="hover:text-background transition-smooth">Privacy Policy</a>
-              <a href="#" className="hover:text-background transition-smooth">Terms of Service</a>
-              <a href="#" className="hover:text-background transition-smooth">Cookie Policy</a>
+              <a href="#" className="hover:text-background transition-smooth">კონფიდენციალურობის პოლიტიკა / Privacy Policy</a>
+              <a href="#" className="hover:text-background transition-smooth">მომსახურების პირობები / Terms of Service</a>
+              <a href="#" className="hover:text-background transition-smooth">Cookie პოლიტიკა / Cookie Policy</a>
             </div>
           </div>
         </div>

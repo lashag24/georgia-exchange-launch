@@ -37,10 +37,10 @@ export default function LeadForm({ isOpen, onClose }: LeadFormProps) {
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle className="text-2xl text-center">
-            Get Your Exchange Online Today
+            გადაიყვანეთ თქვენი გაცვლითი ონლაინზე დღესვე
           </DialogTitle>
           <DialogDescription className="text-center">
-            Fill out this form and our team will contact you within 24 hours to discuss your whitelabel currency exchange solution.
+            შეავსეთ ეს ფორმა და ჩვენი გუნდი დაგიკავშირდებათ 24 საათში, რომ განიხილოს თქვენი თეთრი ეტიკეტის ვალუტის გაცვლის გადაწყვეტა.
           </DialogDescription>
         </DialogHeader>
         
@@ -84,42 +84,42 @@ export default function LeadForm({ isOpen, onClose }: LeadFormProps) {
           </div>
           
           <div className="space-y-2">
-            <Label htmlFor="business-type">Current Business Type</Label>
+            <Label htmlFor="business-type">ამჟამინდელი ბიზნესის ტიპი / Current Business Type</Label>
             <Select required>
               <SelectTrigger>
-                <SelectValue placeholder="Select your business type" />
+                <SelectValue placeholder="აირჩიეთ ბიზნესის ტიპი / Select your business type" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="physical-exchange">Physical Exchange Office</SelectItem>
-                <SelectItem value="bank">Bank</SelectItem>
-                <SelectItem value="fintech">Fintech Company</SelectItem>
-                <SelectItem value="startup">New Business</SelectItem>
-                <SelectItem value="other">Other</SelectItem>
+                <SelectItem value="physical-exchange">ფიზიკური საცვლელი ოფისი / Physical Exchange Office</SelectItem>
+                <SelectItem value="bank">ბანკი / Bank</SelectItem>
+                <SelectItem value="fintech">ფინტექ კომპანია / Fintech Company</SelectItem>
+                <SelectItem value="startup">ახალი ბიზნესი / New Business</SelectItem>
+                <SelectItem value="other">სხვა / Other</SelectItem>
               </SelectContent>
             </Select>
           </div>
           
           <div className="space-y-2">
-            <Label htmlFor="volume">Monthly Exchange Volume (Optional)</Label>
+            <Label htmlFor="volume">ყოველთვიური გაცვლითი მოცულობა (არასავალდებულო) / Monthly Exchange Volume (Optional)</Label>
             <Select>
               <SelectTrigger>
-                <SelectValue placeholder="Select monthly volume" />
+                <SelectValue placeholder="აირჩიეთ ყოველთვიური მოცულობა / Select monthly volume" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="under-50k">Under ₾50,000</SelectItem>
+                <SelectItem value="under-50k">₾50,000-ზე ნაკლები / Under ₾50,000</SelectItem>
                 <SelectItem value="50k-200k">₾50,000 - ₾200,000</SelectItem>
                 <SelectItem value="200k-500k">₾200,000 - ₾500,000</SelectItem>
                 <SelectItem value="500k-1m">₾500,000 - ₾1,000,000</SelectItem>
-                <SelectItem value="over-1m">Over ₾1,000,000</SelectItem>
+                <SelectItem value="over-1m">₾1,000,000-ზე მეტი / Over ₾1,000,000</SelectItem>
               </SelectContent>
             </Select>
           </div>
           
           <div className="space-y-2">
-            <Label htmlFor="message">Additional Information (Optional)</Label>
+            <Label htmlFor="message">დამატებითი ინფორმაცია (არასავალდებულო) / Additional Information (Optional)</Label>
             <Textarea 
               id="message" 
-              placeholder="Tell us about your specific needs or questions"
+              placeholder="მოგვიყევით თქვენი სპეციფიკური საჭიროებების ან კითხვების შესახებ / Tell us about your specific needs or questions"
               rows={3}
             />
           </div>
@@ -129,11 +129,11 @@ export default function LeadForm({ isOpen, onClose }: LeadFormProps) {
             className="w-full bg-gradient-primary hover:shadow-button transition-smooth"
             disabled={isSubmitting}
           >
-            {isSubmitting ? "Submitting..." : "Get In Touch Today"}
+            {isSubmitting ? "იგზავნება... / Submitting..." : "დღესვე დაგვიკავშირდით / Get In Touch Today"}
           </Button>
           
           <p className="text-xs text-muted-foreground text-center">
-            By submitting this form, you agree to be contacted by our team. We respect your privacy and will never share your information.
+            ამ ფორმის წარდგენით, თქვენ ეთანხმებით ჩვენი გუნდის მიერ კონტაქტს. ჩვენ პატივს ვცემთ თქვენს კონფიდენციალურობას და არასოდეს გავზიარებთ თქვენს ინფორმაციას. / By submitting this form, you agree to be contacted by our team. We respect your privacy and will never share your information.
           </p>
         </form>
       </DialogContent>

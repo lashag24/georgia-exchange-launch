@@ -16,18 +16,18 @@ export default function Header({ onLeadFormOpen }: HeaderProps) {
           
           <nav className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-muted-foreground hover:text-foreground transition-smooth">
-              Features
+              თვისებები
             </a>
             <a href="#benefits" className="text-muted-foreground hover:text-foreground transition-smooth">
-              Benefits
+              უპირატესობები
             </a>
             <a href="#contact" className="text-muted-foreground hover:text-foreground transition-smooth">
-              Contact
+              კონტაქტი
             </a>
           </nav>
           
           <Button onClick={onLeadFormOpen} className="bg-gradient-primary hover:shadow-button transition-smooth">
-            Get Started
+            დაწყება
           </Button>
         </div>
       </div>
